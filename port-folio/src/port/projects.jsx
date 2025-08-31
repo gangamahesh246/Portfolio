@@ -22,6 +22,11 @@ const Projects = () => {
       "project_img": "victory_vault.png",
       "project_name": "victory vault",
       "frameworks_i_used": "react.js, node.js, express.js, mongoDB."
+    },
+    {
+      "project_img": "proctorqube_main.png",
+      "project_name": "ProctorQube",
+      "frameworks_i_used": "react.js, node.js, express.js, mongoDB, websockets."
     }
   ]
   const proj_desc = [
@@ -35,6 +40,12 @@ const Projects = () => {
       "image": "stats.png",
       "description": "Victory Vault, is a web-based sports statistics platform that provides users with structured insights into various sports, similar to Crex but with a focused selection of multiple sports, like cricket, Kabaddi, Badminton, and Volleyball etc. The platform integrates a database-driven architecture, showcasing fixtures, match results, and player statistics dynamically.",
       "tech_stack": "My technical expertise includes React.js, Node.js, Express.js, MongoDB, Aggregations, API Integration, and Framer Motion for animations. I am continuously exploring new technologies to enhance my skill set and build innovative solutions."
+    },
+    {
+      "id": 3,
+      "image": "proctorqube.png",
+      "description": "ProctorQube is a secure online examination and evaluate exams seamlessly. It provides separate admin and student panels with features like exam creation, real-time monitoring via webcam and screen recording, violation detection (face recognition, eye tracking, and restricted action logging), and automated result evaluation with analytics.",
+      "tech_stack": "My technical expertise includes React.js, Redux, Tailwind CSS, Chart.js, face-api.js, Node.js, Express.js, MongoDB, Socket.IO.`"
     }
   ]
 

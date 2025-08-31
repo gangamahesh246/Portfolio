@@ -173,7 +173,11 @@ const projects = [
     description: "Hungry Savers",
   },
   {
-    title: "Sports Website",
+    title: "Sports Data Analytics Platform",
     description: "Victory Vault"
+  },
+  {
+    title: " Online Exam Proctoring System",
+    description: "ProctorQube"
   }
 ]
