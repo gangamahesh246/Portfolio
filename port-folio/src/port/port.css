@@ -20,7 +20,7 @@
         margin-right: 10px;
         display: flex;
         align-items: center;
-        z-index: 10;
+        /* z-index: 10; */
     }
     .portfolio_name{
         color: whitesmoke;
@@ -230,7 +230,7 @@
         gap: 10px;
     }
     .projects_blk{
-        width: 90%;
+        width: 97%;
         height: fit-content;
     }
     .projects_sub{
