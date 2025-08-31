@@ -20,7 +20,7 @@ const Navbar = () => {
         <p className="portfolio_name">portfolio</p>
         <div className="resume_div">
           <a
-          href="https://drive.google.com/file/d/1OO9h-zyHiC778RJCSKvdxH_lDNRxybvb/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Aecy4bxgj9xU8fhVgz1FXIPO_YM6kLpz/view?usp=sharing"
           target="_blank"
           >
           <button className="resume_btn cursor-pointer">Resume</button>
