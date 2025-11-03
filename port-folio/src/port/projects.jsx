@@ -20,9 +20,9 @@ const Projects = () => {
   const [descData, setdescData] = useState(null);
   const proj_data = [
     {
-      project_img: "food_donation.png",
-      project_name: "food donation",
-      frameworks_i_used: "html, css, js",
+      project_img: "proctorqube_main.png",
+      project_name: "ProctorQube",
+      frameworks_i_used: "react.js, node.js, express.js, mongoDB, websockets.",
     },
     {
       project_img: "victory_vault.png",
@@ -30,17 +30,26 @@ const Projects = () => {
       frameworks_i_used: "react.js, node.js, express.js, mongoDB.",
     },
     {
-      project_img: "proctorqube_main.png",
-      project_name: "ProctorQube",
-      frameworks_i_used: "react.js, node.js, express.js, mongoDB, websockets.",
+      project_img: "SMPG.png",
+      project_name: "AI Social Media Post Generator",
+      frameworks_i_used: "react.js, typescript, GEMINI API",
     },
+    {
+      project_img: "food_donation.png",
+      project_name: "food donation",
+      frameworks_i_used: "html, css, js",
+    }
   ];
   const proj_desc = [
     {
       id: 1,
-      image: "donate.png",
+      image: "proctorqube_dashboard.png",
       description:
-        "I developed an essential part of the Food Donation Platform, which is a system to connect food donors with receivers without any hurdles in between. Surplus food can be easily distributed through the platform. Separate logins are there for both the donor and the receiver so that each user can access their respective functionalities.Donors can quickly input the quantity, type, for the food and also their location and contact details. These are instantly reflected on the receiver's page, meaning that receivers can view available donations in real time. Receivers can then accept or decline the donation, thereby ensuring that food reaches those who need it most.",
+        "ProctorQube is a secure online examination and evaluate exams seamlessly. It provides separate admin and student panels with features like exam creation, real-time monitoring via webcam and screen recording, violation detection (face recognition, eye tracking, and restricted action logging), and automated result evaluation with analytics.",
+      tech_stack:
+        "My technical expertise includes React.js, Redux, Tailwind CSS, Chart.js, face-api.js, Node.js, Express.js, MongoDB, Socket.IO.",
+      sample_credentials: "Email: 23mh5a4213@acoe.edu.in password: Mahesh246",
+      link: "https://proctor-qube-frontend.vercel.app/",
     },
     {
       id: 2,
@@ -53,13 +62,18 @@ const Projects = () => {
     },
     {
       id: 3,
-      image: "proctorqube_dashboard.png",
+      image: "SMPG_Working.png",
       description:
-        "ProctorQube is a secure online examination and evaluate exams seamlessly. It provides separate admin and student panels with features like exam creation, real-time monitoring via webcam and screen recording, violation detection (face recognition, eye tracking, and restricted action logging), and automated result evaluation with analytics.",
+        "AI Social Media Post Generator is an intelligent web application that creates engaging, platform-specific social media posts using Google's Gemini API. It allows users to generate posts tailored for platforms like LinkedIn, Instagram, and Twitter, with customizable tone options and dynamic color-coded tone indicators for better interactivity and creativity.",
       tech_stack:
-        "My technical expertise includes React.js, Redux, Tailwind CSS, Chart.js, face-api.js, Node.js, Express.js, MongoDB, Socket.IO.",
-      sample_credentials: "Email: 23mh5a4213@acoe.edu.in password: Mahesh246",
-      link: "https://proctor-qube-frontend.vercel.app/",
+        "Developed using React (Vite + TypeScript) and integrated with the Gemini API for AI-driven content generation. Implemented tone customization, category-based post creation, and responsive UI components with Tailwind CSS to ensure smooth user experience and real-time text preview.",
+      link: "https://social-media-post-generator-three.vercel.app/",
+    },
+    {
+      id: 4,
+      image: "donate.png",
+      description:
+        "I developed an essential part of the Food Donation Platform, which is a system to connect food donors with receivers without any hurdles in between. Surplus food can be easily distributed through the platform. Separate logins are there for both the donor and the receiver so that each user can access their respective functionalities.Donors can quickly input the quantity, type, for the food and also their location and contact details. These are instantly reflected on the receiver's page, meaning that receivers can view available donations in real time. Receivers can then accept or decline the donation, thereby ensuring that food reaches those who need it most.",
     },
   ];
 

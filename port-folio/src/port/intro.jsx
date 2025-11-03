@@ -169,15 +169,19 @@ export default Intro;
 
 const projects = [
   {
-    title: "Food Donation",
-    description: "Hungry Savers",
+    title: " Online Exam Proctoring System",
+    description: "ProctorQube"
   },
   {
     title: "Sports Data Analytics Platform",
     description: "Victory Vault"
   },
   {
-    title: " Online Exam Proctoring System",
-    description: "ProctorQube"
+    title: "AI Social Media Post Generator",
+    description: "Content Creator",
+  },
+  {
+    title: "Food Donation",
+    description: "Hungry Savers",
   }
 ]
